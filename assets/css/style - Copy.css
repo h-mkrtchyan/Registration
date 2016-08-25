@@ -1,0 +1,158 @@
+ @font-face{
+ 	font-family: myfont;
+ 	src: url('..//font/Mission-Script.otf') format('opentype');
+ }
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ #left_part{
+ 	margin-top: 1%;
+ 	display: inline-block;
+ 	width: 50%;
+ }
+ .left_part{
+ 	width: 50%;
+ }
+#left_part h1{
+	float: right;
+ 	font-family: myfont;
+ 	color: #FFFFFF;
+ }
+ #right_part{
+ 	margin-top: 1%;
+    float: right;
+    width: 50%;
+  }
+ .right_part{
+    width: 50%;
+    height: 5px;
+    float: right;
+ }
+ #social{
+    width: 10%;
+    position: absolute;
+}
+.social1, .social2, .social3, .social4{
+	overflow: hidden;
+    display: inline;
+    margin-left: 1%;
+    width: 100%;
+    height: 20px;
+}
+#form_container{
+	position: absolute;
+	top: 23%;
+    width: 100%;
+    height: 500px;
+}
+#form{
+	position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 500px;
+}
+#form h2{
+	width: 12%;
+    position: absolute;
+    left: 42%;
+    top: 15%;
+	font-family: myfont;
+	font-size: 2em;
+	color: #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
+}
+#firstname{
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    height: 7%;
+    width: 20%;
+}
+#lastname{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    height: 7%;
+    width: 20%;
+}
+#birthday{
+    position: absolute;
+    top: 69%;
+    left: 25%;
+    height: 7%;
+    width: 20%;
+}
+#email{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    height: 7%;
+    width: 45%;
+}
+#password{
+    position: absolute;
+    top: 57%;
+    left: 25%;
+    height: 7%;
+    width: 20%;
+}
+#password_repeat{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    height: 7%;
+    width: 20%;
+}
+#choose_gender{
+    position: absolute;
+    top: 81%;
+    left: 25%;
+    height: 7%;
+    width: 20%;
+}
+#phone{
+	position: absolute;
+    top: 69%;
+    left: 50%;
+    height: 7%;
+    width: 20%;
+}
+#country{
+	position: absolute;
+    top: 81%;
+    left: 50%;
+    height: 7%;
+    width: 20%;
+}
+footer h3{
+	position: absolute;
+    top: 92%;
+    left: 35%;
+}
+#register_footer_text{
+	font-family: myfont;
+}
+#copyright{
+	position: absolute;
+    font-family: monospace;
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+#dev-er{
+	font-weight: bold;
+	color: #000000;
+	font-size: 1.2em;
+	font-family: monospace;
+}
+#submit{
+    position: absolute;
+    top: 92%;
+    left: 37%;
+    width: 20%;
+    height: 7%;
+    color: black;
+    font-size: 2em;
+    background-color: #826650;
+    opacity: 0.5;
+}
